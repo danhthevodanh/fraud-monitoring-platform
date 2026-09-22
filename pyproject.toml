@@ -1,0 +1,10 @@
+[project]
+name = "fraud-monitoring-platform"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2", "numpy>=1.26", "sqlalchemy>=2.0", "psycopg[binary]>=3.2",
+  "scikit-learn>=1.5", "faker>=30.0"
+]
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
